@@ -635,7 +635,8 @@
 														<li id="menu-item-222"
 															class="menu-item menu-item-type-post_type menu-item-object-product menu-item-222">
 															<a
-																href="https://smarthome.fuelthemes.net/product/amazon-echo-dot-3rd-gen-smart-speaker-with-alexa/">On
+																href="https://smarthome.fuelthemes.net/product/
+                                                                amazon-echo-dot-3rd-gen-smart-speaker-with-alexa/">On
 																– Sale</a></li>
 														<li id="menu-item-221"
 															class="menu-item menu-item-type-post_type menu-item-object-product menu-item-221">
@@ -821,21 +822,22 @@
 
 
 														</div>
-														<input type="text" id="selectedAddress">
+														<input type="text" id="selectedAddress"  style="display: none;" name="selectedAddress">
 													<script>
     function toggleAddress(addressNumber) {
-        // Hide all address details
+        // Hide all address details --}}
         for (let i = 0; i < 5; i++) {
             document.getElementById('address' + i + '-details').style.display = 'none';
         }
-        // Show the selected address details
+       // Show the selected address details --}}
         document.getElementById('address' + addressNumber + '-details').style.display = 'block';
         
-        // Set the selected address ID as the value of a hidden input field
+        // Set the selected address ID as the value of a hidden input field --}}
         document.getElementById('selectedAddress').value = 'address' + addressNumber;
     }
 
-    // By default, show details of the first address (address number 0)
+    // By default, show details of the first address (address number 0) --}}
+
     toggleAddress(0);
     document.getElementById('address0').checked = true;
 </script>
@@ -1122,7 +1124,7 @@
 							<ul class="sub-menu">
 								<li
 									class=" menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-228">
-									<a href="https://smarthome.fuelthemes.net/product-category/category-grid/">Category
+									<a href="">Category
 										Grid</a></li>
 								<li
 									class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-217">
@@ -1131,32 +1133,32 @@
 										<li
 											class=" menu-item menu-item-type-post_type menu-item-object-product menu-item-218">
 											<a
-												href="https://smarthome.fuelthemes.net/product/apple-homepod-mini-space-gray/">Simple
+												href="">Simple
 												Product</a></li>
 										<li
 											class=" menu-item menu-item-type-post_type menu-item-object-product menu-item-219">
 											<a
-												href="https://smarthome.fuelthemes.net/product/nest-x-yale-lock-satin-nickel-with-google-nest-connect/">Variable
+												href="">Variable
 												Product</a></li>
 										<li
 											class=" menu-item menu-item-type-post_type menu-item-object-product menu-item-280">
 											<a
-												href="https://smarthome.fuelthemes.net/product/amazon-echo-dot-3rd-gen-smart-speaker-with-alexa/">External
+												href="">External
 												Product</a></li>
 										<li
 											class=" menu-item menu-item-type-post_type menu-item-object-product menu-item-216">
 											<a
-												href="https://smarthome.fuelthemes.net/product/google-nest-hello-smart-wi-fi-video-doorbell/">Grouped
+												href="">Grouped
 												Product</a></li>
 										<li
 											class=" menu-item menu-item-type-post_type menu-item-object-product menu-item-222">
 											<a
-												href="https://smarthome.fuelthemes.net/product/amazon-echo-dot-3rd-gen-smart-speaker-with-alexa/">On
+												href="">On
 												– Sale</a></li>
 										<li
 											class=" menu-item menu-item-type-post_type menu-item-object-product menu-item-221">
 											<a
-												href="https://smarthome.fuelthemes.net/product/ecobee3-lite-smart-thermostat-black/">Out
+												href="">Out
 												Of Stock</a></li>
 									</ul>
 								</li>
